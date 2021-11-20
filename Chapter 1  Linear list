@@ -1,0 +1,15 @@
+1.How to create a list node?
+
+#define maxsize 100
+typedef struct{
+  int data[maxsize];
+  int length;
+}sqlist;
+
+
+2.How to create a link node?
+
+typedef struc{
+   int data;
+   struct LNode *next;
+}LNode;
